@@ -6,7 +6,6 @@ import { getCollection } from "astro:content";
 const books = await getCollection("books");
 // transition:name={`img-${img}`} elemento que usa el ClientRouter para identificar un elemento unico en toda la app, para darle la animacion de transsicion
 
-export const prerender = true; //ya que se le configuro en astro.config.mjs que se usara servidor, se le dice que esta paguina se tiene que prerenderizar
 ---
 
 <Layout title="Dev Books, Libros para programadores">
